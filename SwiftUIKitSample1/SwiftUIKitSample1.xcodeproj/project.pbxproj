@@ -13,7 +13,6 @@
 		977411AD23E6371E008AB418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977411AB23E6371E008AB418 /* Main.storyboard */; };
 		977411AF23E63721008AB418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 977411AE23E63721008AB418 /* Assets.xcassets */; };
 		977411B223E63721008AB418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977411B023E63721008AB418 /* LaunchScreen.storyboard */; };
-		977411BA23E63770008AB418 /* 1*ZNPtH5cPV0yLXqbmAOU8kQ.png in Resources */ = {isa = PBXBuildFile; fileRef = 977411B923E63770008AB418 /* 1*ZNPtH5cPV0yLXqbmAOU8kQ.png */; };
 		977411BC23E63CC2008AB418 /* abc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977411BB23E63CC2008AB418 /* abc.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		977411AE23E63721008AB418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		977411B123E63721008AB418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		977411B323E63721008AB418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		977411B923E63770008AB418 /* 1*ZNPtH5cPV0yLXqbmAOU8kQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1*ZNPtH5cPV0yLXqbmAOU8kQ.png"; path = "../../../Pictures/1*ZNPtH5cPV0yLXqbmAOU8kQ.png"; sourceTree = "<group>"; };
 		977411BB23E63CC2008AB418 /* abc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = abc.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +63,6 @@
 				977411A923E6371E008AB418 /* ViewController.swift */,
 				977411AB23E6371E008AB418 /* Main.storyboard */,
 				977411AE23E63721008AB418 /* Assets.xcassets */,
-				977411B923E63770008AB418 /* 1*ZNPtH5cPV0yLXqbmAOU8kQ.png */,
 				977411B023E63721008AB418 /* LaunchScreen.storyboard */,
 				977411B323E63721008AB418 /* Info.plist */,
 				977411BB23E63CC2008AB418 /* abc.storyboard */,
@@ -133,7 +130,6 @@
 			files = (
 				977411B223E63721008AB418 /* LaunchScreen.storyboard in Resources */,
 				977411AF23E63721008AB418 /* Assets.xcassets in Resources */,
-				977411BA23E63770008AB418 /* 1*ZNPtH5cPV0yLXqbmAOU8kQ.png in Resources */,
 				977411AD23E6371E008AB418 /* Main.storyboard in Resources */,
 				977411BC23E63CC2008AB418 /* abc.storyboard in Resources */,
 			);
