@@ -32,7 +32,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let url = URL(string: "https://newsapi.egcorp.net/all")
+        /*
+        let url = URL(string: "myapi/all")
         URLSession.shared.dataTask(with: url!){(data, response, error) in
             if error==nil{
                 do{
@@ -44,18 +45,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                     print(self.news.count)
                 }
             }
-        }.resume()
+        }.resume()*/
         
         myTableView.dataSource=self
         myTableView.delegate=self
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return news.count
+        return titles.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
-        cell?.textLabel?.text = news[indexPath.row].title
+        cell?.textLabel?.text = titles[indexPath.row]
         return cell!
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
