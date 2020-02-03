@@ -22,10 +22,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                   "Lorem ipsum dolore sit 9",
                   "Lorem ipsum dolore sit 10"
     ]
+    var count = 0
+    
     var news = [News]()
 
 
     @IBOutlet weak var myTableView: UITableView!
+      @IBOutlet weak var label: UILabel!
     
     
     override func viewDidLoad() {
@@ -49,6 +52,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         myTableView.dataSource=self
         myTableView.delegate=self
+        
+        label.text = "Items: "
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -63,7 +69,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         print(titles[indexPath.row] + " clicked")
     }
 
-
+  
+    @IBAction func btnPressed(_ sender: Any) {
+        print("Button pressed!")
+        count = count+1
+        label.text = "Button pressed " + String(count) + " times"
+    }
+    
 }
 
 struct News:  Decodable{
